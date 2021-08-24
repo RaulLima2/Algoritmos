@@ -1,0 +1,39 @@
+832040
+Filename: /home/raul/Git/Algoritmo Guloso versus Algoritmos Dinamicos/src/Testes/testesemotimizacao.py
+
+Line #    Mem usage    Increment  Occurences   Line Contents
+============================================================
+    30    118.2 MiB    118.2 MiB           1       @profile
+    31                                             def test_sortmedio(self):
+    32    118.2 MiB      0.0 MiB           1           time.sleep(2)
+    33    118.2 MiB      0.0 MiB           1           fib = fibonacirecursivo(self.testetamanhotres)
+    34    118.2 MiB      0.0 MiB           1           print(fib)
+
+
+7.029429197311401
+6765
+Filename: /home/raul/Git/Algoritmo Guloso versus Algoritmos Dinamicos/src/Testes/testesemotimizacao.py
+
+Line #    Mem usage    Increment  Occurences   Line Contents
+============================================================
+    24    118.2 MiB    118.2 MiB           1       @profile
+    25                                             def testdois(self):
+    26    118.2 MiB      0.0 MiB           1           time.sleep(1)
+    27    118.2 MiB      0.0 MiB           1           fib = fibonacirecursivo(self.testetamanhodois)
+    28    118.2 MiB      0.0 MiB           1           print(fib)
+
+
+1.0432722568511963
+55
+Filename: /home/raul/Git/Algoritmo Guloso versus Algoritmos Dinamicos/src/Testes/testesemotimizacao.py
+
+Line #    Mem usage    Increment  Occurences   Line Contents
+============================================================
+    18    118.2 MiB    118.2 MiB           1       @profile
+    19                                             def testum(self):
+    20    118.2 MiB      0.0 MiB           1           time.sleep(0)
+    21    118.2 MiB      0.0 MiB           1           fib = fibonacirecursivo(self.testetamanhoum)
+    22    118.2 MiB      0.0 MiB           1           print(fib)
+
+
+0.001211404800415039
