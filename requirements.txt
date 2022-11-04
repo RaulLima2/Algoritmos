@@ -125,7 +125,7 @@ tomli==1.2.1
 tqdm==4.62.0
 translate==3.6.1
 twilio==6.57.0
-Twisted==22.4.0
+Twisted==22.10.0
 uritemplate==3.0.1
 urllib3==1.26.6
 w3lib==1.22.0
