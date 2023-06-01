@@ -1,15 +1,24 @@
-import os
+# Problema de cacching offline
 
-def app():
-  listadeexecucao = [
-    "python src/Testes/testesemotimizacao.py > Anexo/relatorio-Recursivo-sem-otimização.txt",
-    "python src/Testes/testeadsemmotimizacao.py > Anexo/relatorio-Algoritmo-Dinamico-sem-otimização.txt",
-    "python src/Testes/testesemotimizacao.py > Anexo/relatorio-Recursivo-com-otimização.txt",
-    "python src/Testes/testeadsemmotimizacao.py > Anexo/relatorio-Algoritmo-Dinamico-com-otimização.txt"
-  ]
+def next():
+  return 
 
-  for ex in listadeexecucao:
-    os.system(ex)
+def p_caching_offline(k:int, v:list[int]) ->:
+  cache:dict[list[int]] = {}
+  
+  for i, k in enumerate(v):
+    if k in cache.keys():
+      cache[i].append(k)
+    else:
+      cache[i] = [i]
+  
+  while i < k and i < len(v):
+    cache[i] = v[i]
+    miss += 1
+  
+  while i < len(v):
+    next(cache, v[i], i)  
 
-if __name__ == '__main__':
-  app()
+if __name__ in '__main__':
+  v:int  =[4,1,2,3,4,4,1,4,4,2,4]
+  k:int = 4
