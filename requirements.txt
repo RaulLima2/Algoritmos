@@ -14,7 +14,7 @@ click==8.0.1
 colorama==0.4.4
 constantly==15.1.0
 contextlib2==0.6.0.post1
-cryptography==41.0.0
+cryptography==41.0.2
 cssselect==1.1.0
 cuda==0.0.1
 cycler==0.10.0
